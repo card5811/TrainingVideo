@@ -77,5 +77,17 @@ namespace Interface
     public class Wolf
     {
         public string WolfBreed { get; set; }
+
+        public bool isWolf;
+
+        public int age;
     }
+    
+    public class Cat
+    {
+        public string CatName;
+        public string Breed;
+        public int age;
+    }
+
 }
